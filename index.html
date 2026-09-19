@@ -208,13 +208,15 @@
             .glass-card { padding: 2.5rem 1.5rem; width: 92%; }
             .intro-text { font-size: 1.1rem; }
             .btn-render { font-size: 1rem; padding: 14px 35px; }
+            #flowers-container { overflow: hidden; }
             
-            /* Reducir tamaño de flores en móvil */
-            .f-1 { width: 120px; left: -5%; }
-            .f-2 { width: 160px; left: 10%; }
-            .f-4 { width: 130px; right: -5%; }
-            .f-5 { width: 170px; right: 10%; }
-            .f-3, .f-6 { display: none; } /* Ocultar algunas para no saturar la pantalla */
+            /* Reposicionar flores para que sigan visibles en pantallas pequeñas */
+            .f-1 { width: 110px; left: -8%; bottom: -1%; }
+            .f-2 { width: 140px; left: 8%; bottom: -8%; }
+            .f-3 { width: 95px; left: 28%; bottom: -2%; display: block; }
+            .f-4 { width: 120px; right: -8%; bottom: -1%; }
+            .f-5 { width: 145px; right: 8%; bottom: -8%; }
+            .f-6 { width: 95px; right: 28%; bottom: -2%; display: block; }
         }
     </style>
 </head>
