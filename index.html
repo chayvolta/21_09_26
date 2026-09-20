@@ -205,16 +205,18 @@
         @media (max-width: 768px) {
             h1 { font-size: 2.5rem; }
             p { font-size: 1rem; }
-            .glass-card { padding: 2.5rem 1.5rem; width: 92%; }
+            .glass-card { padding: 2.5rem 1.5rem; width: 92%; background: rgba(20, 24, 34, 0.45); }
             .intro-text { font-size: 1.1rem; }
             .btn-render { font-size: 1rem; padding: 14px 35px; }
+            #flowers-container { overflow: hidden; }
             
-            /* Reducir tamaño de flores en móvil */
-            .f-1 { width: 120px; left: -5%; }
-            .f-2 { width: 160px; left: 10%; }
-            .f-4 { width: 130px; right: -5%; }
-            .f-5 { width: 170px; right: 10%; }
-            .f-3, .f-6 { display: none; } /* Ocultar algunas para no saturar la pantalla */
+            /* Subir flores para que se perciban detrás del texto en móvil */
+            .f-1 { width: 120px; left: -10%; bottom: 8%; }
+            .f-2 { width: 145px; left: 4%; bottom: -1%; }
+            .f-3 { width: 105px; left: 24%; bottom: 12%; display: block; }
+            .f-4 { width: 125px; right: -10%; bottom: 8%; }
+            .f-5 { width: 150px; right: 4%; bottom: -1%; }
+            .f-6 { width: 105px; right: 24%; bottom: 12%; display: block; }
         }
     </style>
 </head>
@@ -233,7 +235,7 @@
             <h1>Para Mi Arquitecta favorita, para mi Julieta</h1>
             <p>Tú eres la <span class="highlight">iluminación perfecta</span> que le da calidez a mi mundo y lo más hermoso de mi vida.</p>
             <p>A tu lado, no hay ruido en el render, solo la resolución más hermosa. Gracias por ser el pilar estructural de mis días y ayudarme a <span class="highlight">construir</span> un futuro juntos.</p>
-            <div class="signature">Te amo infinito.</div>
+            <div class="signature">Te ama infinito tu Chaisito 🥰</div>
         </div>
     </div>
 
